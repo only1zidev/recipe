@@ -1,0 +1,149 @@
+@charset "UTF-8";
+ 
+ 
+ 
+ 
+ 
+      /* Mobile */
+     @media only screen and (min-width: 375px) and (max-width: 1440px) {
+     .container {
+      flex-basis: 100%;
+      box-sizing: border-box;
+
+     }
+
+     }
+
+
+      body {
+        font-family: sans-serif;
+        font-size: 12px;
+        background-color: rgba(255, 228, 196, 0.629);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+  
+      }
+
+       span {
+        margin-right: 3px;
+       }
+      
+      .container {
+        background-color: white;
+        width: 500px;
+        border-radius: 20px;
+        
+        display: flex;
+        flex-direction: column;
+      }
+
+  
+      .footer {
+        margin-top: 20px;
+      }
+  
+      
+      .flex-item {
+        margin: 20px;
+       
+      }
+  
+      
+      .img {
+        border-radius: 10px;
+        width: 100%;
+      }
+  
+     
+      .small {
+        background-color: rgba(255, 192, 203, 0.179);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 20px;
+      }
+
+      
+      td {
+        color: rgb(114, 12, 29);
+      }
+  
+      
+      span {
+        font-weight: 700;
+      }
+  
+      h2 {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+      }
+
+     
+      h3 {
+        color: hsl(332, 51%, 32%);
+        font-family: "Young Serif", serif;
+      }
+  
+      
+      .small h4 {
+        color: rgb(114, 12, 29);
+        margin: 20px;
+      }
+      
+      
+      ol {
+        list-style-position: outside;
+      }
+      
+  
+      ol li {
+        padding-left: 30px;
+      }
+  
+      
+      ul li {
+        padding-left: 30px;
+      }
+     
+     
+      .li {
+        color: tomato;
+      }
+      
+      
+      .small ul li::marker {
+        color: pink;
+      }  
+      
+      
+      .grid-item li::marker {
+        color: rgb(114, 12, 29)
+      }
+  
+  
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+     
+     
+      table tr  {
+      border-bottom: 1px solid;
+     }
+     
+     
+     tr th  {
+      padding: 10px 10px; 
+     }
+     
+     
+     table tr:last-child {
+     border-bottom: none; 
+     }
+     
+     
+     th {
+      float: left;
+     }
