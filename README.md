@@ -30,4 +30,4 @@
 
 ### Continued development
 
-I want to continue devloping on flexbox and all of my friend end. I also want to develop on writing clean codes. 
+I want to continue devloping on flexbox and all of my front end. I also want to develop on writing clean codes. 
